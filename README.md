@@ -1,11 +1,9 @@
 Features
 
     Advanced Ensemble Model: Combines Random Forest, XGBoost, LightGBM, Gradient Boosting, and ExtraTrees classifiers
-    High Accuracy: Achieves 81.96% test accuracy with 89.92% ROC-AUC score
-    Interactive Web Interface: User-friendly Flask web application for real-time predictions
+    Achieves 81.96% test accuracy with 89.92% ROC-AUC score
     NASA Data Integration: Trained on 21,000+ samples from Kepler, K2, and TESS missions
-    Real-time Classification: Input stellar and planetary parameters for instant predictions
-    Professional UI: Modern, responsive design optimized for hackathon presentation
+    Input stellar and planetary parameters for instant predictions
 
 Model Performance
 Test Set Results
@@ -16,22 +14,12 @@ Test Set Results
     F1 Score: 82.29%
     ROC-AUC: 89.92%
 
-Validation Results
-
-    Accuracy: 80.95%
-    Precision: 77.33%
-    Recall: 86.43%
-    F1 Score: 81.63%
-    ROC-AUC: 88.18%
-
-Technical Architecture
 Machine Learning Stack
 
     scikit-learn: Core ML algorithms and preprocessing
     XGBoost: Extreme gradient boosting
     LightGBM: Microsoft's gradient boosting framework
     imblearn: SMOTE for class balancing
-    pandas/numpy: Data manipulation and numerical computing
 
 Web Application Stack
 
